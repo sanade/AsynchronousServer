@@ -1,12 +1,26 @@
-
 {
   "author": "",
-  "name": "test1 »,
+  "name": "test1",
   "version": "0.1.0",
   "description": "test",
-  "scripts":{
+  "scripts": {
     "start": "node app.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "coffee-script": "^1.11.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
+  "main": "app.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanade/AsynchronousServer.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanade/AsynchronousServer/issues"
+  },
+  "homepage": "https://github.com/sanade/AsynchronousServer#readme"
 }
